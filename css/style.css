@@ -449,6 +449,19 @@ th {
     height: 70px;
     margin: 0 auto;
 }
+.content {
+    padding: 0 15px;
+}
+
 .content > img {
     margin-top: 15px;
+}
+.content ul {
+    margin-top: 1.7rem;
+}
+.content ul > li {
+    display: inline-block;
+}
+.top-navigation .links {
+  float: right;
 }
