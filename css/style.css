@@ -44,7 +44,6 @@ details,
 figcaption,
 figure,
 footer,
-header,
 hgroup,
 main,
 menu,
@@ -53,6 +52,8 @@ section,
 summary {
   display: block;
 }
+
+
 
 /**
  * 1. Correct `inline-block` display not defined in IE 8/9.
@@ -432,4 +433,18 @@ table {
 td,
 th {
   padding: 0;
+}
+
+/**
+* Start CSS styles specific to this project 
+**/
+
+/* Navigation Section */
+.top-navigation {
+    background-color: #fff;
+}
+.top-navigation > .content {
+    width: 970px;
+    height: 70px;
+    margin: 0 auto;
 }
