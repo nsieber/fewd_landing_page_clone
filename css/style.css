@@ -442,9 +442,13 @@ th {
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
+    height: 4.375rem;
 }
 .top-navigation > .content {
     width: 970px;
     height: 70px;
     margin: 0 auto;
+}
+.content > img {
+    margin-top: 15px;
 }
