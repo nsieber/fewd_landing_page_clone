@@ -535,3 +535,22 @@ th {
     background-color: white;
     text-align: center;
 }
+.social h5 {
+    color: #1d1e21;
+}
+.social .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: .15rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+.social .facebook {
+    color: #4c66a4;
+}
+.social .twitter {
+    color: #55acee;
+}
