@@ -449,21 +449,19 @@ th {
 /**
 * Start CSS styles specific to this project 
 **/
-
+.content {
+    padding: 0 15px;
+    width: 970px;
+    margin: 0 auto;
+}
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
     height: 4.375rem;
 }
 .top-navigation > .content {
-    width: 970px;
-    height: 70px;
-    margin: 0 auto;
+    height: 70px;   
 }
-.content {
-    padding: 0 15px;
-}
-
 .content > img {
     margin-top: 15px;
 }
@@ -476,4 +474,40 @@ th {
 }
 .top-navigation .links {
   float: right;
+}
+
+/* Introduction Section */
+.introduction {
+  background-image: url('../images/karma-bg.jpg');
+  background-position: 0 bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  height: 45.938rem;
+}
+.introduction h1 {
+    margin-top: 17.5rem;
+    font-size: 3.125rem;
+}
+.introduction h1, .introduction h3 {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+.buttons {
+    text-align: center;
+}
+.big-button {
+    width: 9.688rem;
+    background-color: #f15a29;
+    border-color: #f15a29;
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 1rem 1.5rem;
+    color: white;
+    font-size: 1.125rem;
+}
+.big-button:hover {
+    background-color: blue;
 }
