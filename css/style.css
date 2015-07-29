@@ -529,3 +529,8 @@ th {
     width: 30.3%;
     box-sizing: border-box;
 }
+
+/* Social section */
+.social {
+    background-color: white;
+}
