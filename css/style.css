@@ -514,9 +514,18 @@ th {
 
 /* Devices section */
 .cases {
+    padding-top: 50px;
     background-color: white;
     color: #1d1e21;
+    font-family: 'Roboto', sans-serif;
 }
 .content h2 {
     text-align: center;
+}
+.devices {
+    text-align: center;
+}
+.devices>li {
+    width: 30.3%;
+    box-sizing: border-box;
 }
