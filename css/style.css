@@ -32,9 +32,7 @@ body {
 }
 
 /* Change display for working on layout */
-body {
-    background-color: LightGray;
-}
+
 div {
     border: 1px solid Chocolate;
 }
@@ -456,8 +454,9 @@ th {
 }
 /* Navigation Section */
 .top-navigation {
-    background-color: #fff;
+    background-color: white;
     height: 4.375rem;
+    margin: 0 15px;
 }
 .top-navigation > .content {
     height: 70px;   
@@ -532,7 +531,7 @@ th {
 
 /* Social section */
 .social {
-    background-color: white;
+    margin-bottom: 50px;
     text-align: center;
 }
 .social h5 {
