@@ -461,6 +461,10 @@ th {
 .top-navigation > .content {
     height: 70px;   
 }
+.top-navigation .logo {
+    margin-top: 15px;
+}
+
 .content > img {
     margin-top: 15px;
 }
